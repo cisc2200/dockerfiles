@@ -1,4 +1,4 @@
-from mcr.microsoft.com/vscode/devcontainers/cpp:bionic
+FROM mcr.microsoft.com/vscode/devcontainers/cpp:bionic
 
 # Install needed packages.
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
