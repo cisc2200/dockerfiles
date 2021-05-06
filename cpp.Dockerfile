@@ -7,5 +7,5 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 RUN cd /usr/include && wget https://raw.githubusercontent.com/onqtam/doctest/2.4.6/doctest/doctest.h
 
 ENV GIT_EDITOR=vi
-ENV CXX=g++
-ENV CXXFLAGS="-g -Wall -std=c++11 -O0"
+ENV CXX=clang++
+ENV CXXFLAGS="-O0 -g -Wall -std=c++11"
