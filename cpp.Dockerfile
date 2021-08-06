@@ -7,7 +7,7 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 
 RUN cd /usr/include && wget https://raw.githubusercontent.com/onqtam/doctest/2.4.6/doctest/doctest.h
 
-ENV TERM=xterm-color
+ENV force_color_prompt=yes
 ENV GIT_EDITOR=vi
 ENV CXX=g++
 ENV CXXFLAGS="-O0 -g -Wall -std=c++11"
