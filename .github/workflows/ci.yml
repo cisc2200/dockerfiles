@@ -28,4 +28,5 @@ jobs:
           file: cpp.Dockerfile
           push: true
           tags: cisc2200/cpp-dev-container:latest
-
+          cache-from: type=registry,ref=cisc2200/cpp-dev-container:latest
+          cache-to: type=inline
