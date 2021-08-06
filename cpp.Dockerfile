@@ -7,6 +7,7 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 
 RUN cd /usr/include && wget https://raw.githubusercontent.com/onqtam/doctest/2.4.6/doctest/doctest.h
 
-# ENV GIT_EDITOR=vi
+ENV PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+ENV GIT_EDITOR=vi
 ENV CXX=g++
 ENV CXXFLAGS="-O0 -g -Wall -std=c++11"
