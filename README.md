@@ -32,4 +32,5 @@
 }
 ```
 
-2. Open the project directory in contatiner via VSCode.
+2. Open the project directory in contatiner via VSCode's [https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers](Remote - Containers) extension.
+3. Enjoy coding!
