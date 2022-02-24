@@ -3,7 +3,7 @@
 
 ## Use in VSCode
 
-In the root directory of the project, create a sub-directory and file `.devcontainer/devcontainer.json`:
+1. In the root directory of any project, create a sub-directory and file `.devcontainer/devcontainer.json`:
 
 ```json
 {
@@ -31,3 +31,5 @@ In the root directory of the project, create a sub-directory and file `.devconta
 	]
 }
 ```
+
+2. Open the project directory in contatiner via VSCode.
