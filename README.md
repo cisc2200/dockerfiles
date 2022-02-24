@@ -10,7 +10,7 @@ In the root directory of the project, create a sub-directory and file `.devconta
 	"image": "cisc2200/cpp-dev-container:latest",
 	"settings": {
 		"editor.formatOnType": true,
-		"files.autoSave": "afterDelay",
+		"files.autoSave": "onFocusChange",
 		"C_Cpp.intelliSenseEngine": "Default",
 		"C_Cpp.enhancedColorization": "Enabled",
 		"C_Cpp.formatting": "clangFormat",
