@@ -7,7 +7,6 @@ In the root directory of the project, create a sub-directory and file `.devconta
 
 ```json
 {
-	// https://github.com/cisc2200/dockerfiles
 	"image": "cisc2200/cpp-dev-container:latest",
 	"settings": {
 		"editor.formatOnType": true,
