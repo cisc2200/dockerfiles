@@ -13,4 +13,5 @@ RUN cd /usr/include && wget https://raw.githubusercontent.com/onqtam/doctest/v2.
 ENV force_color_prompt=yes
 ENV GIT_EDITOR=vi
 ENV CXX=g++
-ENV CXXFLAGS="-O0 -g -Wall -std=c++14 -Werror=return-type"
+ENV CXXFLAGS="-O0 -g -Wall -std=c++14 -Werror=return-type -fsanitize=address -fno-omit-frame-pointer"
+ENV LDFLAGS="-fsanitize=address -fno-omit-frame-pointer"
