@@ -8,7 +8,7 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 RUN service ssh start
 EXPOSE 22
 
-RUN cd /usr/include && wget https://raw.githubusercontent.com/onqtam/doctest/v2.4.8/doctest/doctest.h
+RUN cd /usr/include && wget https://raw.githubusercontent.com/onqtam/doctest/v2.4.11/doctest/doctest.h
 
 ENV force_color_prompt=yes
 ENV GIT_EDITOR=vi
